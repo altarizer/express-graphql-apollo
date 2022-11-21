@@ -1,0 +1,12 @@
+type Member {
+  mem_id: Int!
+  mem_username: String!
+}
+
+type Query { 
+  member: [Member]
+}
+
+type Mutation {
+  addUser(mem_id: Int!, mem_username: String!): Boolean
+} 
