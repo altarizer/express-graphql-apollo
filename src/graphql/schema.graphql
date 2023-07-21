@@ -1,6 +1,6 @@
 type Member {
-  mem_id: Int!
-  mem_username: String!
+  id: Int!
+  username: String!
 }
 
 type Query { 
@@ -8,5 +8,5 @@ type Query {
 }
 
 type Mutation {
-  addUser(mem_id: Int!, mem_username: String!): Boolean
+  addUser(id: Int!, username: String!): Boolean
 } 

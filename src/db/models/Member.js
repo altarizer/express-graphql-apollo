@@ -1,7 +1,7 @@
 import statusUtil from "../../utils/statusUtil.js";
 import pool from "../pool.js";
 
-const tableName = "cb_member";
+const tableName = "tb_member";
 
 const Member = {
   selectAll: async () => {
