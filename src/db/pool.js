@@ -14,6 +14,7 @@ const pool = {
       connection.rollback(() => {});
     } finally {
       //pool.releaseConnection(connection);
+      connection.release();
       return result;
     }
   },
